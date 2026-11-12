@@ -3,10 +3,6 @@ A customer interaction management application supported by operational
 dashboards for monitoring service activity, customer issues, workforce
 attendance, product performance, incidents, and executive-level
 performance.
-> **Portfolio note:** This repository documents the project through
-> screenshots and a functional walkthrough. Add or confirm the
-> technology stack, your exact contribution, and any verified business
-> results before publishing or sharing it.
 1. Project Overview
 The CFC Customer Interaction project brings together a customer
 interaction capture workflow and a suite of operational analytics
@@ -107,64 +103,36 @@ Workforce attendance and absence monitoring.
 Product issue and incident analysis.
 Executive-level operational summaries.
 6. Tools and Technologies
-
 The project was developed using a combination of data analytics, business intelligence, application development, and workflow automation technologies.
-
 Microsoft Excel: Data preparation, cleaning, organisation, analysis, and reporting.
-
 Microsoft Power BI: Interactive dashboards, data visualisation, KPI monitoring, and operational performance reporting.
-
 SQL: Data querying, extraction, manipulation, and analysis.
-
 Python: Data processing, analysis, and automation.
-
 Microsoft Power Apps: Development of the customer interaction management application and structured data capture forms.
-
 Microsoft Power Automate: Workflow automation, process integration, and automated business processes.
-
 These technologies work together to support data-driven decision-making, operational visibility, and process efficiency.
-
 7. My Role and Contribution
-
 I was responsible for designing and developing the customer interaction management solution and its supporting operational analytics dashboards.
-
 My contributions included:
-
 Application Development: Designed and developed the customer interaction management application using Microsoft Power Apps, providing a structured platform for customer information capture, interaction recording, and case review.
-
 Dashboard Development: Developed interactive Power BI dashboards to monitor operational performance, customer interactions, workforce attendance, product performance, and incidents.
-
 Data Preparation and Analysis: Used Excel, SQL, and Python for data preparation, cleaning, processing, and analysis to support accurate reporting and meaningful business insights.
-
 Workflow Automation: Implemented automation processes using Microsoft Power Automate to support operational workflows and improve process efficiency.
-
 Business Intelligence and Reporting: Translated operational data into meaningful visual reports, performance indicators, and management insights.
-
 Solution Design and Improvement: Worked on structuring the application and dashboards to improve information accessibility, operational monitoring, and reporting.
-
 8. Project Outcomes and Business Value
-
 The solution provides a centralised approach to customer interaction management and operational performance monitoring.
-
 Key business value includes:
-
 Improved Interaction Management: Provides a structured approach to capturing, classifying, and reviewing customer interactions.
-
 Enhanced Operational Visibility: Makes key performance indicators and operational trends accessible through interactive dashboards.
-
 Better Decision-Making: Supports management decisions through data visualisation and performance analysis.
-
 Workforce Monitoring: Provides visibility into employee attendance, absenteeism, and workforce distribution.
-
 Customer Experience Monitoring: Helps identify recurring customer complaints, product-related issues, and operational service challenges.
-
 Process Automation: Reduces reliance on repetitive manual activities through automated workflows.
-
 Centralised Reporting: Brings different operational performance indicators together for easier monitoring and review.
-
 Measured Results: Quantifiable improvements can be added as verified project performance results become available.
 
-Contact
+**Contact**
 
 Project Owner: Kamorudeen Abdulhakeem
 

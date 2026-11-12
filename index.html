@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CFC Customer Interaction Analytics | Abdulhakeem Kamorudeen</title>
+  <meta name="description" content="Portfolio showcasing a customer interaction management application and operational analytics dashboards.">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #172033;
+      line-height: 1.7;
+    }
+    header {
+      background: #101d38;
+      color: white;
+      padding: 22px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    header strong { font-size: 19px; }
+    nav { display: flex; gap: 20px; flex-wrap: wrap; }
+    nav a { color: white; text-decoration: none; font-size: 14px; }
+    .hero {
+      background: linear-gradient(130deg, #101d38, #174d78);
+      color: white;
+      padding: 90px 8%;
+    }
+    .hero-content { max-width: 850px; }
+    .hero .eyebrow { color: #9dd7ff; font-weight: bold; }
+    h1 { font-size: clamp(34px, 5vw, 54px); line-height: 1.15; margin: 18px 0; }
+    .hero p { font-size: 18px; max-width: 720px; color: #e1eaf5; }
+    .button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 22px;
+      border-radius: 6px;
+      background: #55b5ee;
+      color: #10203b;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main { max-width: 1150px; margin: auto; padding: 55px 22px; }
+    section { margin-bottom: 65px; }
+    h2 { font-size: 28px; color: #14294b; margin-bottom: 18px; }
+    .intro { max-width: 850px; color: #536176; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+      margin-top: 25px;
+    }
+    .card {
+      background: white;
+      border: 1px solid #e4e9f1;
+      border-radius: 10px;
+      padding: 23px;
+      box-shadow: 0 5px 18px rgba(20, 40, 70, .05);
+    }
+    .card h3 { color: #173b66; margin-bottom: 9px; }
+    .tags { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+    .tag {
+      background: #e5f2fc;
+      color: #174b76;
+      padding: 7px 13px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 22px;
+      margin-top: 25px;
+    }
+    figure {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid #e4e9f1;
+    }
+    figure img { display: block; width: 100%; height: auto; }
+    figcaption { padding: 13px 15px; font-weight: bold; color: #173b66; }
+    .contact {
+      background: #eaf2fa;
+      padding: 30px;
+      border-radius: 10px;
+    }
+    .contact a { color: #145c91; font-weight: bold; }
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #101d38;
+      color: #dce7f3;
+      font-size: 14px;
+    }
+    @media (max-width: 600px) {
+      header { align-items: flex-start; }
+      .hero { padding: 65px 7%; }
+      main { padding: 40px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <strong>Abdulhakeem Kamorudeen</strong>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#project">Project</a>
+    <a href="#dashboards">Dashboards</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <div class="hero-content">
+    <div class="eyebrow">DATA ANALYTICS · BUSINESS INTELLIGENCE · AUTOMATION</div>
+    <h1>Turning Operational Data into Actionable Insights</h1>
+    <p>
+      I design business applications, develop interactive dashboards,
+      prepare and analyse data, and build automation solutions that
+      improve operational visibility and decision-making.
+    </p>
+    <a class="button" href="#project">Explore My Project</a>
+  </div>
+</div>
+
+<main>
+  <section id="about">
+    <h2>About Me</h2>
+    <p class="intro">
+      I am a data and operations analytics professional with experience
+      designing applications, developing dashboards, preparing data,
+      conducting analysis and automating business processes. My work
+      focuses on transforming operational information into useful
+      insights that support better decisions and performance.
+    </p>
+  </section>
+
+  <section id="project">
+    <h2>Featured Project</h2>
+    <div class="card">
+      <h3>CFC Customer Interaction Management & Operational Analytics</h3>
+      <p>
+        An integrated project combining a customer interaction management
+        application with operational dashboards. It provides visibility
+        into customer interactions, workforce attendance, product
+        performance, incidents and operational trends.
+      </p>
+      <div class="tags">
+        <span class="tag">Power Apps</span>
+        <span class="tag">Power BI</span>
+        <span class="tag">Excel</span>
+        <span class="tag">SQL</span>
+        <span class="tag">Python</span>
+        <span class="tag">Power Automate</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="dashboards">
+    <h2>Project Screenshots & Dashboard Gallery</h2>
+    <p class="intro">
+      Explore the application interface and operational dashboards
+      developed as part of this project.
+    </p>
+
+    <div class="gallery">
+      <figure>
+        <img src="images/01-customer-interaction-home.png" alt="Customer interaction home page">
+        <figcaption>Customer Interaction Home</figcaption>
+      </figure>
+      <figure>
+        <img src="images/02-executive-interval-dashboard.png" alt="Executive interval dashboard">
+        <figcaption>Executive Interval Dashboard</figcaption>
+      </figure>
+      <figure>
+        <img src="images/03-operational-trend-planning.png" alt="Operational trend planning">
+        <figcaption>Operational Trend Planning</figcaption>
+      </figure>
+      <figure>
+        <img src="images/04-interval-analysis-dashboard.png" alt="Interval analysis dashboard">
+        <figcaption>Interval Analysis Dashboard</figcaption>
+      </figure>
+      <figure>
+        <img src="images/05-workforce-attendance-dashboard.png" alt="Workforce attendance dashboard">
+        <figcaption>Workforce Attendance Dashboard</figcaption>
+      </figure>
+      <figure>
+        <img src="images/06-product-performance-dashboard.png" alt="Product performance dashboard">
+        <figcaption>Product Performance Dashboard</figcaption>
+      </figure>
+      <figure>
+        <img src="images/07-incident-dashboard.png" alt="Incident dashboard">
+        <figcaption>Incident Dashboard</figcaption>
+      </figure>
+      <figure>
+        <img src="images/08-cfc-executive-command-centre.png" alt="CFC executive command centre">
+        <figcaption>CFC Executive Command Centre</figcaption>
+      </figure>
+      <figure>
+        <img src="images/09-cfc-attendance-dashboard.png" alt="CFC attendance dashboard">
+        <figcaption>CFC Attendance Dashboard</figcaption>
+      </figure>
+      <figure>
+        <img src="images/10-customer-interaction-record-detail.png" alt="Customer interaction record detail">
+        <figcaption>Customer Interaction Record Detail</figcaption>
+      </figure>
+      <figure>
+        <img src="images/11-customer-interaction-form.png" alt="Customer interaction form">
+        <figcaption>Customer Interaction Form</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>Tools & Technologies</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Data Analysis</h3>
+        <p>Excel, SQL and Python for data preparation, processing and analysis.</p>
+      </div>
+      <div class="card">
+        <h3>Business Intelligence</h3>
+        <p>Power BI for interactive dashboards, reporting and performance monitoring.</p>
+      </div>
+      <div class="card">
+        <h3>Application Development</h3>
+        <p>Power Apps for designing and developing business applications.</p>
+      </div>
+      <div class="card">
+        <h3>Process Automation</h3>
+        <p>Power Automate for workflow automation and process efficiency.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>My Role & Contributions</h2>
+    <div class="card">
+      <ul>
+        <li>Designed the customer interaction management application.</li>
+        <li>Developed dashboards for operational reporting and analysis.</li>
+        <li>Prepared, organised and analysed operational data.</li>
+        <li>Built automations to support business processes.</li>
+        <li>Translated operational data into insights for decision-making.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Project Value</h2>
+    <p class="intro">
+      The solution brings application-based data capture and dashboard
+      reporting together, helping teams monitor activity, review
+      operational performance, identify trends and make informed decisions.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Let's Connect</h2>
+    <div class="contact">
+      <p><strong>Name:</strong> Abdulhakeem Kamorudeen</p>
+      <p><strong>Email:</strong>
+        <a href="mailto:kamorudeenabdulhakeem@gmail.com">kamorudeenabdulhakeem@gmail.com</a>
+      </p>
+      <p><strong>LinkedIn:</strong>
+        <a href="https://www.linkedin.com/in/kamorudeenabdulhakeem/" target="_blank" rel="noopener noreferrer">View my LinkedIn profile</a>
+      </p>
+      <p><strong>GitHub:</strong>
+        <a href="https://github.com/kamurodeenabdulhakeem-glitch" target="_blank" rel="noopener noreferrer">View my GitHub profile</a>
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  © 2026 Abdulhakeem Kamorudeen · Data Analytics & Business Intelligence Portfolio
+</footer>
+
+</body>
+</html>

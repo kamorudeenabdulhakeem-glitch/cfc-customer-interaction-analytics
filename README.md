@@ -106,57 +106,54 @@ Interval and service performance views.
 Workforce attendance and absence monitoring.
 Product issue and incident analysis.
 Executive-level operational summaries.
-6. Tools and Technologies
-Complete this section with the tools actually used to build the
-application, data model, and dashboards.
-Application development: [Add tool or platform]
-Data preparation and storage: [Add tools, if applicable]
-Dashboard and visualisation: [Add tool or platform]
-Other technologies: [Add tools, if applicable]
-Do not list a tool unless it was genuinely used in the project.
-7. My Role and Contribution
-[Describe your actual role in the project. Explain whether you designed
-the workflow, developed the application, prepared the data, built the
-dashboards, created calculations, tested the solution, or coordinated
-delivery. Keep only contributions that accurately describe your work.]
-8. Project Outcomes and Business Value
-The project is intended to support:
-More structured customer interaction capture and review.
-Better visibility into customer interaction volumes and trends.
-Easier monitoring of operational performance across channels and
-intervals.
-Improved visibility into workforce attendance and staffing patterns.
-Clearer identification of recurring product issues and operational
-incidents.
-More accessible operational information for management review.
-Measured results: [Add verified results or measurable improvements,
-if available. Do not present estimated benefits as achieved results.]
-9. Repository Structure
-``` text
-cfc-customer-interaction-analytics/
-├── images/
-│   ├── 01-customer-interaction-home.png
-│   ├── 02-executive-interval-dashboard.png
-│   ├── 03-operational-trend-planning.png
-│   ├── 04-interval-analysis-dashboard.png
-│   ├── 05-workforce-attendance-dashboard.png
-│   ├── 06-product-performance-dashboard.png
-│   ├── 07-incident-dashboard.png
-│   ├── 08-cfc-executive-command-centre.png
-│   ├── 09-cfc-attendance-dashboard.png
-│   ├── 10-customer-interaction-record-detail.png
-│   └── 11-customer-interaction-form.png
-└── README.md
-```
-10. Screenshots and Data Privacy
-The screenshots are included to demonstrate the project workflow and
-dashboard layouts. Before making this repository public, ensure that all
-customer, employee, account, contact, and other confidential information
-has been removed or replaced with synthetic demonstration data. Confirm
-that you have permission to publish any remaining organisational
-information.
-Contact
-Project owner: [Your preferred professional name]  
-Professional profile: [Add LinkedIn or portfolio link, if you want
-to share one]  
-Email: [Add a professional contact email, if appropriate]
+## 6. Tools and Technologies
+
+The project was developed using a combination of data analytics, business intelligence, application development, and workflow automation technologies.
+
+- **Microsoft Excel:** Data preparation, cleaning, organisation, analysis, and reporting.
+- **Microsoft Power BI:** Interactive dashboards, data visualisation, KPI monitoring, and operational performance reporting.
+- **SQL:** Data querying, extraction, manipulation, and analysis.
+- **Python:** Data processing, analysis, and automation.
+- **Microsoft Power Apps:** Development of the customer interaction management application and structured data capture forms.
+- **Microsoft Power Automate:** Workflow automation, process integration, and automated business processes.
+
+These technologies work together to support data-driven decision-making, operational visibility, and process efficiency.
+
+## 7. My Role and Contribution
+
+I was responsible for designing and developing the customer interaction management solution and its supporting operational analytics dashboards.
+
+My contributions included:
+
+- **Application Development:** Designed and developed the customer interaction management application using Microsoft Power Apps, providing a structured platform for customer information capture, interaction recording, and case review.
+- **Dashboard Development:** Developed interactive Power BI dashboards to monitor operational performance, customer interactions, workforce attendance, product performance, and incidents.
+- **Data Preparation and Analysis:** Used Excel, SQL, and Python for data preparation, cleaning, processing, and analysis to support accurate reporting and meaningful business insights.
+- **Workflow Automation:** Implemented automation processes using Microsoft Power Automate to support operational workflows and improve process efficiency.
+- **Business Intelligence and Reporting:** Translated operational data into meaningful visual reports, performance indicators, and management insights.
+- **Solution Design and Improvement:** Worked on structuring the application and dashboards to improve information accessibility, operational monitoring, and reporting.
+
+## 8. Project Outcomes and Business Value
+
+The solution provides a centralised approach to customer interaction management and operational performance monitoring.
+
+Key business value includes:
+
+- **Improved Interaction Management:** Provides a structured approach to capturing, classifying, and reviewing customer interactions.
+- **Enhanced Operational Visibility:** Makes key performance indicators and operational trends accessible through interactive dashboards.
+- **Better Decision-Making:** Supports management decisions through data visualisation and performance analysis.
+- **Workforce Monitoring:** Provides visibility into employee attendance, absenteeism, and workforce distribution.
+- **Customer Experience Monitoring:** Helps identify recurring customer complaints, product-related issues, and operational service challenges.
+- **Process Automation:** Reduces reliance on repetitive manual activities through automated workflows.
+- **Centralised Reporting:** Brings different operational performance indicators together for easier monitoring and review.
+
+**Measured Results:** Quantifiable improvements can be added as verified project performance results become available.
+
+---
+
+## Contact
+
+**Project Owner:** Kamorudeen Abdulhakeem
+
+**LinkedIn:** https://www.linkedin.com/in/kamorudeenabdulhakeem/
+
+**Email:** kamorudeenabdulhakeem@gmail.com
